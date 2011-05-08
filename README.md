@@ -1,9 +1,15 @@
 **_This repository just a fork from [http://code.google.com/p/inflection-js/](http://code.google.com/p/inflection-js/)_**
 
 
-This project is a port of the functionality from Ruby on Rails' Active Support Inflection classes into Javascript. Instead of supporting the functionality in a new Inflector object, I've chosen to extend the Javascript String object. This was ported initially to support plurality in Jester (http://thoughtbot.com/projects/jester). If anyone requires a different license in order to use this, please let me know and I can switch it over. I intend for this to be generally available for anyone's usage, and am not intentionally limiting it.
+This project is a port of the functionality from Ruby on Rails' Active Support Inflection classes into Javascript. 
+Instead of supporting the functionality in a new Inflector object, I've chosen to extend the Javascript String object. 
 
-Currently supported:
+This was ported initially to support plurality in Jester (http://thoughtbot.com/projects/jester). 
+
+If anyone requires a different license in order to use this, please let me know and I can switch it over.
+I intend for this to be generally available for anyone's usage, and am not intentionally limiting it.
+
+_Currently supported:_
 
 ```javascript
 
