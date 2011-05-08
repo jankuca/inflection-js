@@ -1,4 +1,4 @@
-**_This repository just a fork from [http://code.google.com/p/inflection-js/](http://code.google.com/p/inflection-js/)_**
+**_This repository is a fork from [http://code.google.com/p/inflection-js/](http://code.google.com/p/inflection-js/)_**
 
 
 This project is a port of the functionality from Ruby on Rails' Active Support Inflection classes into Javascript. 
