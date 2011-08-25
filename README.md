@@ -2,9 +2,15 @@
 
 This repository is based on the [inflection-js](http://code.google.com/p/inflection-js/) repository by [Ryan Schuft](http://www.linkedin.com/in/ryanschuft) hosted on Google Code.
 
-Most of the code, however, was refactored by [Jan Kuča](http://www.linkedin.com/in/jankuca). The new code is structured in one namespace that can be easily used with [Google Closure](http://code.google.com/closure/) Library and Compiler.
+Most of the code, however, was refactored by [Jan Kuča](http://www.linkedin.com/in/jankuca). The new code is structured in one namespace that can be easily used with [Google Closure](http://code.google.com/closure/) Library and Compiler or as a Node.js module.
 
+    Google Closure Library:
     goog.require('string.inflection');
+
+    Node.js:
+    require('inflection-js');
+
+> Note that you need to place the repository in your `node_modules` directory for the node.js `require` function to know about the module.
 
 Ryan's original code extends `String.prototype` which is generally considered a bad practice and it might not compile as well as a set of methods in a separated namespace.
 
