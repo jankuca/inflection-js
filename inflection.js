@@ -1,11 +1,10 @@
+var string;
+string.inflection = {};
+
 if (typeof goog !== 'undefined') {
 	goog.provide('string.inflection');
 	goog.provide('string.inflection.Rules');
 }
-
-var string;
-string.inflection = {};
-
 if (typeof module !== 'undefined') {
 	module.exports = string.inflection;
 }
