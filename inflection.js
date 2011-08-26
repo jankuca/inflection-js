@@ -106,7 +106,7 @@ string.inflection.CommonRegExp = {
 	SPACES: /\s+/g,
 	SPACES_OR_UNDERSCORES: /[\s_]+/g,
 	UPPERCASE: /[A-Z]/g,
-	UNDERSCORE_PREFIX: /^_'/
+	UNDERSCORE_PREFIX: /^_/
 };
 
 /**
