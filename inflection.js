@@ -1,10 +1,6 @@
 goog.provide('string.inflection');
 goog.provide('string.inflection.Rules');
 
-if (typeof module !== 'undefined') {
-	module.exports = string.inflection;
-}
-
 
 /**
  * List of nouns that use the same form for both singular and plural.
