@@ -1,10 +1,6 @@
-var string;
-string.inflection = {};
+goog.provide('string.inflection');
+goog.provide('string.inflection.Rules');
 
-if (typeof goog !== 'undefined') {
-	goog.provide('string.inflection');
-	goog.provide('string.inflection.Rules');
-}
 if (typeof module !== 'undefined') {
 	module.exports = string.inflection;
 }
