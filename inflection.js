@@ -45,7 +45,7 @@ string.inflection.Rules = {
 		[ /(m|l)ouse$/gi, '$1ice' ],
 		[ /(quiz)$/gi, '$1zes' ],
 		[ /s$/gi, 's' ],
-		[ /$/g, 's ']
+		[ /$/g, 's' ]
 	],
 
 	PLURAL_TO_SINGULAR: [
@@ -74,7 +74,7 @@ string.inflection.Rules = {
 		[ /(vert|ind)ices$/gi, '$1ex' ],
 		[ /(matr)ices$/gi, '$1ix' ],
 		[ /(quiz)zes$/gi, '$1' ],
-		[ /s$/gi, ' ' ]
+		[ /s$/gi, '' ]
 	]
 };
 
