@@ -115,7 +115,10 @@ string.inflection.applyRules_ = function (str, rules, skip) {
 		for (var i = 0, ii = rules.length; i < ii; ++i) {
 			var rule = rules[i];
 			if (rule[0].test(str)) {
+				rule[0].lastIndex = 0;
 				return str.replace(rule[0], rule[1]);
+			} else {
+				rule[0].lastIndex = 0;
 			}
 		}
 	}
