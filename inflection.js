@@ -44,7 +44,7 @@ string.inflection.Rules = {
 		[ /(matr|vert|ind)ix|ex$/gi, '$1ices' ],
 		[ /(m|l)ouse$/gi, '$1ice' ],
 		[ /(quiz)$/gi, '$1zes' ],
-		[ /s$/gi, 's' ],
+		[ /s$/gi, 'ses' ],
 		[ /$/g, 's' ]
 	],
 
